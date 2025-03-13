@@ -59,6 +59,10 @@ class block_enrolmenttimer extends block_base {
         );
     }
 
+    private $completionpercentage;
+    private $activecountdown;
+    private $viewsoptions;
+
     /**
      * Tell Moodle we have some specializations.
      */
